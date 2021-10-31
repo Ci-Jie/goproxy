@@ -1,3 +1,4 @@
 tmp/
 etc/goproxy.yaml
 goproxy
+.DS_Store
