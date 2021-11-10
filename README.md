@@ -59,11 +59,12 @@ $ make all
 ### Docker
 
 You can use `make build-image` commnad to build container image.
-It will build binary based on `golang:1.17.3` image and copy it on the other container which is baes on `alpine:latest`
+It will build binary based on `golang:1.17.3` image and copy it to the other container which is based on `alpine:latest`
 And running go proxy service on it.
 
 ```
 $ make build-image
 ```
 
-More detail information for can click [here](https://github.com/Ci-Jie/goproxy/blob/master/Dockerfile)
+More detail information about dockerfile you can click [here](https://github.com/Ci-Jie/goproxy/blob/master/Dockerfile)
+
