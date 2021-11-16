@@ -1,4 +1,4 @@
-module goproxy
+module github.com/Ci-Jie/goproxy
 
 go 1.16
 

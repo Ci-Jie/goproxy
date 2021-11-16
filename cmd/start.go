@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"goproxy/server"
+	"github.com/Ci-Jie/goproxy/server"
 
 	"github.com/spf13/cobra"
 )
