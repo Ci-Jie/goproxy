@@ -3,12 +3,13 @@ package controller
 import (
 	"encoding/json"
 	"fmt"
-	s "goproxy/storage"
 	"io/ioutil"
 	"net/http"
 	"net/url"
 	"strings"
 	"time"
+
+	s "github.com/Ci-Jie/goproxy/storage"
 
 	"github.com/gofiber/fiber/v2"
 	log "github.com/sirupsen/logrus"

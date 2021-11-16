@@ -2,8 +2,9 @@ package server
 
 import (
 	"fmt"
-	"goproxy/controller"
-	"goproxy/storage"
+
+	"github.com/Ci-Jie/goproxy/controller"
+	"github.com/Ci-Jie/goproxy/storage"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"

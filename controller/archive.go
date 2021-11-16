@@ -4,12 +4,13 @@ import (
 	"archive/zip"
 	"bytes"
 	"fmt"
-	s "goproxy/storage"
 	"io/ioutil"
 	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
+
+	s "github.com/Ci-Jie/goproxy/storage"
 
 	"github.com/gofiber/fiber/v2"
 	log "github.com/sirupsen/logrus"

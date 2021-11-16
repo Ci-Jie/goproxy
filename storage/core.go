@@ -1,8 +1,8 @@
 package storage
 
 import (
-	localStorage "goproxy/storage/local"
-	s3Storage "goproxy/storage/s3"
+	localStorage "github.com/Ci-Jie/goproxy/storage/local"
+	s3Storage "github.com/Ci-Jie/goproxy/storage/s3"
 
 	"github.com/spf13/viper"
 )
