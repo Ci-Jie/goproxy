@@ -61,6 +61,9 @@ func Init() {
 // Handler ...
 func Handler(c *fiber.Ctx) (err error) {
 	path := strings.Split(strings.ReplaceAll(string(c.Context().URI().Path()), "/@v", ""), "/")
+	if string(c.Context().URI().Path()) == "/favicon.ico" {
+		return nil
+	}
 	c.Locals(DomainKey, path[1])
 	c.Locals(PackageKey, strings.Join(path[2:len(path)-1], "/"))
 	c.Locals(VersionKey, path[len(path)-1])
